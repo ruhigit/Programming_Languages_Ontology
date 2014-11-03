@@ -1,0 +1,644 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Arithmetic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Arithmetic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Assignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Bitwise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Bitwise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Classs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Classs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_OOP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Comparison -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Comparison">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Control_Flow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Control_Flow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Data_Types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Data_Types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Delimiters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Delimiters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Token"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Exceptions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Exceptions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_OOP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Expressions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Expressions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Functions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Functions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Identifiers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Identifiers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Token"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Identity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Identity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Inheritance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Inheritance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_OOP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Token"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Literals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Literals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Token"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Logical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Logical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Looping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Looping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Membership -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Membership">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Modules -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Modules">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_OOP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Namespace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Namespace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Objects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_OOP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Operators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Operators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Token"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_Language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_OOP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_OOP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Token -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Token">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Variables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Variables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Python_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Complex -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Complex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Dictionary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Dictionary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Elif_Statement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Elif_Statement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Control_Flow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Else_Loop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Else_Loop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Looping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Else_Statement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Else_Statement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Control_Flow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#False -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#False">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Float -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Float">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#For -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#For">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Looping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#If_Statement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#If_Statement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Control_Flow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Int -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Int">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#List -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#List">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Long -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Long">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Multiple -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Multiple">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Inheritance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#None -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#None">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#String -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#String">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#True -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#True">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Tuple -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Tuple">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#While -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#While">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Looping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#and -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#and">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#as -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#as">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#assert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#assert">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#break -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#break">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#class -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#class">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#continue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#continue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#def -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#def">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#del -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#del">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#elif -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#elif">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#else -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#else">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#except -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#except">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#finally -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#finally">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#for -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#for">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#from -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#from">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#global -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#global">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#if -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#if">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#import -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#import">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#in -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#in">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#is -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#is">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#lambda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#lambda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#not -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#not">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#notlocal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#notlocal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#or -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#or">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#pass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#pass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#raise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#raise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#return -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#return">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#try -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#try">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#while -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#while">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#with -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#with">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#yield -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#yield">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhi-pc/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
