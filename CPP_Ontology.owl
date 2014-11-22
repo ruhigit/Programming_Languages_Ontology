@@ -1,0 +1,1162 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Abstraction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Abstraction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Object_Oriented_Concepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Data_Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#CPP_Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#CPP_Language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Class -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Class">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Object_Oriented_Concepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Control_Structures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Control_Structures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#CPP_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Data_Types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Data_Types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#CPP_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Derived_Data_Types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Derived_Data_Types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Data_Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Encapsulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Encapsulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Object_Oriented_Concepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Expressions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Expressions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#CPP_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Floating_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Floating_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Functions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Functions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#CPP_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Identifiers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Identifiers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Tokens"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Inheritance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Inheritance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Object_Oriented_Concepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Input_Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Input_Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Functions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Integral_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Integral_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Tokens"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Looping_Structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Looping_Structure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Control_Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Object_Oriented_Concepts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Object_Oriented_Concepts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#CPP_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Objects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Object_Oriented_Concepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Operators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Operators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#CPP_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Output_Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Output_Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Functions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Overloading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Overloading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#CPP_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#STL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#STL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Object_Oriented_Concepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Selection_Structure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Selection_Structure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Control_Structures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Symbolic_Constants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Symbolic_Constants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Tokens"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Templates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Templates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Object_Oriented_Concepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Tokens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Tokens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#CPP_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#User_Defined_Data_Types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#User_Defined_Data_Types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Data_Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Variables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Variables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#CPP_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Void -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Void">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Arithmetic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Arithmetic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Array -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Array">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Derived_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Bitwise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Bitwise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Character -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Character">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Integral_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Class -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Class">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#User_Defined_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Class_Variables -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Class_Variables">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Variables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Conditional -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Conditional">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Double -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Double">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Floating_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Enum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Enum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#User_Defined_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Float -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Float">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Floating_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Function -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Function">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Derived_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Function_Overloading -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Function_Overloading">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Overloading"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Global_Variables -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Global_Variables">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Variables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Hierarchical_Inheritance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Hierarchical_Inheritance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Inheritance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Hybrid_Inheritance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Hybrid_Inheritance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Inheritance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Increment_Decrement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Increment_Decrement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Instance_Variables -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Instance_Variables">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Variables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Integer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Integer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Integral_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Local_Variables -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Local_Variables">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Variables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Logical -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Logical">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Multilevel_Inheritance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Multilevel_Inheritance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Inheritance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Multiple_Inheritance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Multiple_Inheritance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Inheritance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Operator_Overloading -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Operator_Overloading">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Overloading"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Pointer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Pointer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Derived_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Reference -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Reference">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Derived_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Reference_Variables -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Reference_Variables">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Variables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Relational -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Relational">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Operators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Single_Inheritance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Single_Inheritance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Inheritance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Static_Variables -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Static_Variables">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Variables"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Structure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Structure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#User_Defined_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Union -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Union">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#User_Defined_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#asm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#asm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#auto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#auto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#bool -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#bool">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#break -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#break">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#case -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#case">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#catch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#catch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#char -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#char">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#cin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#cin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Input_Function"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#class -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#class">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#const -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#const">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Symbolic_Constants"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#const_cast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#const_cast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#continue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#continue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#cout -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#cout">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Output_Function"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#default -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#default">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#delete -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#delete">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#do -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#do">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#do-while -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#do-while">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Looping_Structure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#double -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#double">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#dynamic_cast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#dynamic_cast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#else -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#else">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#enum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#enum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Symbolic_Constants"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#explicit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#explicit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#export -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#export">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#extern -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#extern">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#false -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#false">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#float -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#float">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#for -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#for">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Looping_Structure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#friend -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#friend">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#goto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#goto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#if -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#if">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#if-else -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#if-else">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Selection_Structure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#inline -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#inline">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#int -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#int">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#long -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#long">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#long_double -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#long_double">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#long_int -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#long_int">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#mutable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#mutable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#namespace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#namespace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#new -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#new">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#operator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#operator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#private -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#private">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#protected -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#protected">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#public -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#public">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#register -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#register">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#reinterpret_cast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#reinterpret_cast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#return -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#return">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#short -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#short">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#short_int -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#short_int">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#signed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#signed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#signed_char -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#signed_char">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#signed_int -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#signed_int">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#signed_long_int -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#signed_long_int">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#signed_short_int -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#signed_short_int">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#sizeof -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#sizeof">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#static -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#static">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#static_cast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#static_cast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#struct -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#struct">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#switch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#switch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Selection_Structure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#template -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#template">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#this -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#this">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#throw -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#throw">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#true -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#true">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#try -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#try">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#typedef -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#typedef">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#typeid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#typeid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#typename -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#typename">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#union -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#union">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#unsigned -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#unsigned">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#unsigned_char -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#unsigned_char">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#unsigned_int -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#unsigned_int">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#unsigned_long_int -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#unsigned_long_int">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#unsigned_short_int -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#unsigned_short_int">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#using -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#using">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#virtual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#virtual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#void -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#void">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#volatile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#volatile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#wchar_t -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#wchar_t">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Basic_Data_Types"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Keywords"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#while -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#while">
+        <rdf:type rdf:resource="http://www.semanticweb.org/saurabh/ontologies/2014/9/untitled-ontology-9#Looping_Structure"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
