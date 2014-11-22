@@ -1,0 +1,500 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY javaOntology "http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ankit/ontologies/2014/9/JavaOntology#"
+     xml:base="http://www.semanticweb.org/ankit/ontologies/2014/9/JavaOntology"
+     xmlns:javaOntology="http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Access_Specifiers -->
+
+    <owl:Class rdf:about="&javaOntology;Access_Specifiers">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Java_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Arithmetic_Expression -->
+
+    <owl:Class rdf:about="&javaOntology;Arithmetic_Expression">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Expressions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Assignment_Expression -->
+
+    <owl:Class rdf:about="&javaOntology;Assignment_Expression">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Expressions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Class -->
+
+    <owl:Class rdf:about="&javaOntology;Class">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Object_Oriented_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Control_Flow_Statements -->
+
+    <owl:Class rdf:about="&javaOntology;Control_Flow_Statements">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Java_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Data_Type -->
+
+    <owl:Class rdf:about="&javaOntology;Data_Type">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Java_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Decision_Making -->
+
+    <owl:Class rdf:about="&javaOntology;Decision_Making">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Control_Flow_Statements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Expressions -->
+
+    <owl:Class rdf:about="&javaOntology;Expressions">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Java_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Functions -->
+
+    <owl:Class rdf:about="&javaOntology;Functions">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Java_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Generics -->
+
+    <owl:Class rdf:about="&javaOntology;Generics">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Object_Oriented_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Inheritance -->
+
+    <owl:Class rdf:about="&javaOntology;Inheritance">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Object_Oriented_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Input_Function -->
+
+    <owl:Class rdf:about="&javaOntology;Input_Function">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Functions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Interface -->
+
+    <owl:Class rdf:about="&javaOntology;Interface">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Object_Oriented_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Java_Language -->
+
+    <owl:Class rdf:about="&javaOntology;Java_Language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Keywords -->
+
+    <owl:Class rdf:about="&javaOntology;Keywords">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Tokens"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Looping -->
+
+    <owl:Class rdf:about="&javaOntology;Looping">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Control_Flow_Statements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Multithreading -->
+
+    <owl:Class rdf:about="&javaOntology;Multithreading">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Object_Oriented_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Non_Primitive -->
+
+    <owl:Class rdf:about="&javaOntology;Non_Primitive">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Data_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Object -->
+
+    <owl:Class rdf:about="&javaOntology;Object">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Object_Oriented_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Object_Oriented_Programming -->
+
+    <owl:Class rdf:about="&javaOntology;Object_Oriented_Programming">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Java_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Operators -->
+
+    <owl:Class rdf:about="&javaOntology;Operators">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Java_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Output_Function -->
+
+    <owl:Class rdf:about="&javaOntology;Output_Function">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Functions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Package -->
+
+    <owl:Class rdf:about="&javaOntology;Package">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Object_Oriented_Programming"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Primitive -->
+
+    <owl:Class rdf:about="&javaOntology;Primitive">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Data_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Relational_Expression -->
+
+    <owl:Class rdf:about="&javaOntology;Relational_Expression">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Expressions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Tokens -->
+
+    <owl:Class rdf:about="&javaOntology;Tokens">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Java_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Variables -->
+
+    <owl:Class rdf:about="&javaOntology;Variables">
+        <rdfs:subClassOf rdf:resource="&javaOntology;Java_Language"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Addition -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Addition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Arithmetic -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Arithmetic">
+        <rdf:type rdf:resource="&javaOntology;Operators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Bitwise -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Bitwise">
+        <rdf:type rdf:resource="&javaOntology;Operators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Boolean -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Boolean">
+        <rdf:type rdf:resource="&javaOntology;Primitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Byte -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Byte">
+        <rdf:type rdf:resource="&javaOntology;Primitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Char -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Char">
+        <rdf:type rdf:resource="&javaOntology;Primitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Conditional -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Conditional">
+        <rdf:type rdf:resource="&javaOntology;Operators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Default -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Default">
+        <rdf:type rdf:resource="&javaOntology;Access_Specifiers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Do-While -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Do-While">
+        <rdf:type rdf:resource="&javaOntology;Looping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Double -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Double">
+        <rdf:type rdf:resource="&javaOntology;Primitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Float -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Float">
+        <rdf:type rdf:resource="&javaOntology;Primitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#For -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;For">
+        <rdf:type rdf:resource="&javaOntology;Looping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Hierarchical -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Hierarchical">
+        <rdf:type rdf:resource="&javaOntology;Inheritance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#If-Then -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;If-Then">
+        <rdf:type rdf:resource="&javaOntology;Decision_Making"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#If-Then-Else -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;If-Then-Else">
+        <rdf:type rdf:resource="&javaOntology;Decision_Making"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Int -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Int">
+        <rdf:type rdf:resource="&javaOntology;Primitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Logical -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Logical">
+        <rdf:type rdf:resource="&javaOntology;Operators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Long -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Long">
+        <rdf:type rdf:resource="&javaOntology;Primitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Multilevel -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Multilevel">
+        <rdf:type rdf:resource="&javaOntology;Inheritance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Println -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Println">
+        <rdf:type rdf:resource="&javaOntology;Output_Function"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Private -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Private">
+        <rdf:type rdf:resource="&javaOntology;Access_Specifiers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Protected -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Protected">
+        <rdf:type rdf:resource="&javaOntology;Access_Specifiers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Public -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Public">
+        <rdf:type rdf:resource="&javaOntology;Access_Specifiers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Relational -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Relational">
+        <rdf:type rdf:resource="&javaOntology;Operators"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Scanner -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Scanner">
+        <rdf:type rdf:resource="&javaOntology;Input_Function"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Short -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Short">
+        <rdf:type rdf:resource="&javaOntology;Primitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Single -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Single">
+        <rdf:type rdf:resource="&javaOntology;Inheritance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#String -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;String">
+        <rdf:type rdf:resource="&javaOntology;Primitive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#Switch -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;Switch">
+        <rdf:type rdf:resource="&javaOntology;Decision_Making"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ankit/ontologies/2014/9/javaOntology#While -->
+
+    <owl:NamedIndividual rdf:about="&javaOntology;While">
+        <rdf:type rdf:resource="&javaOntology;Looping"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
